@@ -15,7 +15,7 @@ Thus, the file should contain alternating lines that start with 'START:' and 'FI
 It will output the total number of builds, average build time, and the total time spent waiting for builds (all showing overall stats and just stats for today). TODO: Add ability to show efficiency thoughout day.
 """
 
-BUILD_TIME_FILE = "buildtimes"
+BUILD_TIME_FILE = "build_times"
 TIME_FORMAT = "%m/%d/%y %H:%M:%S"
 SECONDS_IN_DAY = 86400
 SECONDS_IN_HOUR = 3600
